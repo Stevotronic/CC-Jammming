@@ -1,3 +1,41 @@
+.card {
+    background: #ffffff;    
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover {
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);}
+
 .title {
-    color: rgb(43, 150, 226);
+    color: rgb(8, 74, 121);
+    font-size: 1.2rem;
+}
+
+.artist {
+    font-size: 1rem;
+    font-family: 'Geist';
+    font-weight: 300;
+    
+}
+.album {
+    font-size: 0.85rem;
+    font-family: 'Geist';
+    font-weight: 300;
+}
+
+.add {
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
 }

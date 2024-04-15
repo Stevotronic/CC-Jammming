@@ -1,0 +1,10 @@
+.button {
+    width: 160px;
+    padding: 0.25rem 0.5rem;
+}
+.buttonDisabled {
+    width: 160px;
+    padding: 0.25rem 0.5rem;
+    cursor: not-allowed;
+    opacity: 0.6;
+}

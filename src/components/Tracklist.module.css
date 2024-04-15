@@ -1,3 +1,6 @@
-.title {
-    color: rgb(226, 223, 43);
+.titleResults {
+    font-family: 'Geist';
+    font-weight: 300;
+    font-size: 0.85rem;
+    text-align: center;
 }

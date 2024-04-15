@@ -1,0 +1,44 @@
+[
+    {
+       "name":"Sabotage",
+       "artist":"Beastie Boys",
+       "album":"Ill Communication",
+       "id":1
+    },
+    {
+       "name":"Go With The Flow",
+       "artist":"Queens Of The Stone Age",
+       "album":"Songs For The Deaf",
+       "id":2
+    },
+    {
+       "name":"Paradise Circus",
+       "artist":"Massive Attack",
+       "album":"Heligoland",
+       "id":3
+    },
+    {
+       "name":"Smooth Criminal",
+       "artist":"Michael Jackson",
+       "album":"Bad",
+       "id":4
+    },
+    {
+       "name":"I Wanna Be Your Dog",
+       "artist":"The Stooges",
+       "album":"The Stooges",
+       "id":5
+    },
+    {
+       "name":"Everything In It's Right Place",
+       "artist":"Radiohead",
+       "album":"Kid A",
+       "id":6
+    },
+    {
+       "name":"Je Moeder Heet Henk",
+       "artist":"Jan Henk",
+       "album":"",
+       "id":7
+    }
+ ]
