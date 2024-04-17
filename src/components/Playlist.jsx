@@ -1,8 +1,8 @@
 import React from 'react'
-import Track from './Track';
+import TrackPlaylist from './TrackPlaylist';
 import styles from './Playlist.module.css'
 
-const Playlist = ({onChange, listName, playlist}) => {
+const Playlist = ({onChange, listName, playlist, playListRemoveHandler}) => {
   const inputHandler = (event) => {
     const list = event.target.value;
     onChange(list);
@@ -13,7 +13,7 @@ const Playlist = ({onChange, listName, playlist}) => {
     <input type='text' value={listName} onChange={inputHandler} />
   </form>
   {playlist.map((song)=> 
-        <Track name={song.name.length>20 ? song.name.substring(0, 20)+'...' : song.name} artist={song.artist} album={song.album} key={song.id}/>
+        <TrackPlaylist name={song.name.length>20 ? song.name.substring(0, 20)+'...' : song.name} artist={song.artist} album={song.album} key={song.id} playListRemoveHandler={playListRemoveHandler}/>
    )}
     </>)
 }
