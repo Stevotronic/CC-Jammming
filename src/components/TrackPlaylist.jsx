@@ -9,13 +9,13 @@ const TrackPlaylist = ({name, artist, album, id, playListRemoveHandler}) => {
     "id": id
  };
   return (
-    <div className={styles.card} key={id}>
+    <div className={styles.card}>
         <div>
             <h2 className={styles.title}>{name}</h2>
             <h2 className={styles.artist}>{artist}</h2>
             <h2 className={styles.album}>{album}</h2>
         </div>
-        <div className={styles.add} onClick={(e)=>playListRemoveHandler()}>
+        <div className={styles.add} onClick={(e)=>playListRemoveHandler(song.id)}>
             -
         </div>
     </div>

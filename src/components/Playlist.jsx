@@ -13,7 +13,7 @@ const Playlist = ({onChange, listName, playlist, playListRemoveHandler}) => {
     <input type='text' value={listName} onChange={inputHandler} />
   </form>
   {playlist.map((song)=> 
-        <TrackPlaylist name={song.name.length>20 ? song.name.substring(0, 20)+'...' : song.name} artist={song.artist} album={song.album} key={song.id} playListRemoveHandler={playListRemoveHandler}/>
+        <TrackPlaylist name={song.name.length>20 ? song.name.substring(0, 20)+'...' : song.name} artist={song.artist} album={song.album} key={song.id} id={song.id} playListRemoveHandler={playListRemoveHandler}/>
    )}
     </>)
 }
