@@ -1,5 +1,17 @@
 
     .button {
-        width: 160px;
-        padding: 0.25rem 0.5rem;
+        font-family: "HealTheWeb";
+        width: 180px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+        background: #0b67a9;
+    color: #fbfbfb;
+    cursor: pointer;
     }
+
+    .button:hover {
+        background: #052d49;
+        
+         
+     }
